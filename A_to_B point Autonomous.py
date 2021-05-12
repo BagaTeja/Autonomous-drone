@@ -3,7 +3,9 @@
 # Hardware: Raspberry pi ,Arducopter , laptop or desktop ,ultrasonic sensor HC-SR04					                    #
 #	  : Arducopter(APM2.6)												                                                #
 # Author  : Teja narayana                                                   #
-# Author  : mohan										                                                #
+# Author  : Mohan 
+# Author  : Brijesh
+# Author  : Surya
 #															                                                            #
 #by running this code, drone will go point A to point B autonomously.												    #
 #															                                                            #
@@ -38,11 +40,6 @@ while not vehicle.armed:
     time.sleep(1)
 
 print ("its armed")
-
-
-
-
-
 
 def arm_and_takeoff(aTargetAltitude):
     print ("Taking off!")
